@@ -1,0 +1,172 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    background-color:#f1f1f1;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.menu1 {
+    
+    height: 100px;
+    height: auto;
+    
+    border-bottom: 5px solid #76a535;
+    transition: 1s;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-image:url(../Images/menu_back.png);
+    background-size:cover
+}   
+
+.welcomeDiv {
+height:400px;
+color:white;
+
+}
+
+.Enrol {
+background-color:#2073d4;
+height:60px;
+width:auto;
+border-radius:4px;
+color:white;
+text-align:center;
+margin-top:25px;
+padding-top:20px;
+}
+
+
+
+
+
+.logintextbox {
+    color: black;
+}
+
+    .logintextbox:focus {
+        background-color: #f5f3f3;
+    }
+
+
+.leftrow.content, .announcement.content {
+    height: auto;
+}
+
+
+
+.sidenav {
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: #f1f1f1;
+    height: 520px;
+    margin-bottom: 13px;
+
+    position: fixed;
+
+}
+
+a.list-group-item {
+    height: 70px;
+}
+
+footer {
+    background-color: #a6c43d;
+    color: white;
+    padding: 5px;
+    transition: 1s;
+    height: 30px;
+
+
+      position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+
+}
+
+footer:hover
+{
+    
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+        position:fixed;
+    }
+
+    .row.content {
+    }
+}
+
+/*Courses------------------------------------------------ */
+
+.coursesinfo
+{
+    padding:10px;   
+    
+    margin-top:10px;
+    margin-bottom:10px;
+    height:auto;
+    overflow-y:auto;
+   
+}
+.courses {
+
+
+background-color:#f1f1f1;
+}
+.coursediv
+{  border-radius:4px;
+    opacity:0.9;
+    height:450px;
+    margin:5px;
+    background-color:#f1f1f1;
+    padding-top:10px;
+    padding-left:0px;
+    text-align:left;
+
+}
+.comment{
+	border-radius:6px;
+	background-color:white;
+	height:135px;
+	padding-left:5px;
+	overflow-y:auto;
+	border:0.5px solid #860926;
+    margin-top:12px;
+}
+.commentdiv
+{ margin-top:200px; 
+border-radius:4px;
+    opacity:0.9;
+    height:450px;
+    margin:5px;
+    background-color:#fcfac9;
+    padding-top:10px;
+    padding-left:5px;
+    text-align:left;
+     overflow-y:auto;
+	 border:0.5px solid #860926;
+}
+
+.courselivediv
+{
+	width:100%;
+	height:100%;
+	border:0.5px solid green;
+	border-radius:5px;
+	padding:10px;   
+    margin-top:10px;
+    margin-bottom:10px;
+	    background-color:#f1f1f1;
+}
